@@ -1,0 +1,137 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    flex-direction: column;
+    font-family: "Teko", sans-serif;
+}
+
+header {
+    padding: 2em;
+    background-color: #c7f8e1cc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    
+}
+
+nav {
+    display: flex;
+    gap: 3rem;
+    list-style-type: none;
+     
+}
+a{
+    color: black;
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    gap: 3rem;
+}
+
+nav .logo {
+    max-width: 100px;
+    max-height: 100px;
+
+
+}
+
+nav .nav__liste {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+nav li a {
+    font-size: 1.5rem;
+}
+main {
+    flex: 1;
+    padding: 2rem;
+    border-radius: 15px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    display: inline-block; 
+    margin-right: 10px; 
+}
+
+ul li a {
+    text-decoration: none;
+}
+
+a:hover {
+    box-shadow: 0 0 20px green;
+    color: white;
+    text-decoration: underline;
+    background-color: green;
+
+}
+
+
+ img {
+    display: grid;
+    max-width:100%;
+    max-height: 100%;
+    justify-content: space-between;
+}
+
+img :hover{
+    box-shadow: 0 0 20px green;
+    background-color: azure;
+    cursor : pointer;
+    
+}
+
+.section-header .filtres {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center; 
+    
+}
+.section-header .filtres .filtre{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+    font-size: 1rem;
+    background-color: rgba(199, 248, 225, 0.8);
+    color: rgb(17, 16, 16);
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 350ms;
+    box-shadow: 20px;
+    cursor: pointer;
+    
+}
+.section-header .filtres .tri{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+    font-size: 1rem;
+    background-color: rgba(199, 248, 225, 0.8);
+    color: rgb(17, 16, 16);
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 350ms;
+    box-shadow: 20px;
+    cursor: pointer;
+    
+}
+
